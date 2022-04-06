@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: "far from Homecoming";
+    src: url(Far-From\ Homecoming\ Updated.otf);
+}
+/******************************body*********************/
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+ ::placeholder{
+     color: white;
+ }
+/*************************header *************************/
+header{
+    background-color :#b11313;
+}
+#header2{
+    background-color :#114C92;
+}
+#header3{
+    background-color :#f1c530;
+}
+.logo{
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.logo2{
+    padding-left:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.menu{
+    width:50%;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+    padding-top:50%;
+    padding-bottom:50%;
+}
+.menu ul li :hover{
+    font-size:20px;
+    color:black;
+}
+.menu li{
+    padding-left: 4%;
+    padding-right:4%;
+}
+/*********************************page index******************************/
+#antenne{
+    background-color:#f1c530;
+}
+#antenne h1{
+    font-size:100px;
+}
+#antenne h4{
+    font-size:30px;
+}
+#antenne img{
+    padding-left:25%;
+}
+#input{
+    margin-top:14%;
+    margin-left:10%;
+}
+#input input{
+    padding:2px;
+    border-radius:30px;
+}
+#input textarea{
+    border-radius:15px;
+    padding-bottom:10%;
+}
+#input button{
+    background-color:white;
+    color:black;
+    margin-left:35%;
+    width:30%;
+    padding:2%;
+    border-radius:15px;
+    border:none;
+}
+h1{
+    color:white;
+    font-family:"far from Homecoming";
+}
+h4{
+    color:white;
+    font-family:"Montserrat";
+}
+#toile{
+    padding-top:17%;
+}
+#formulaire{
+    background-color:#b11313;
+    padding-top:5%;
+    padding-bottom: 5%;
+    padding-left:5%;
+}
+#saynamarvel{
+    background-color:#114C92;
+}
+#saynamarvel h1{
+    margin-top:5%;
+}
+#row1{
+    padding-left:8%;
+    padding-right:8%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#saynamarvel p{
+    text-align:justify;
+}
+#saynamarvel input{
+    padding:2px;
+    border-radius:30px ;
+    background-color: #114C92;
+    color:white;
+}
+p{
+    color:white;
+    font-size:13Px;
+    font-family:"Montserrat";
+}
+#row4{
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom:10%;
+}
+#row4 input{
+    width:80%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    color:white;
+}
+#row3 input{
+    width:80%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-left:10%;
+    text-align:center;
+    color:white;
+}
+#row4 h5{
+    color:white;
+    font-family:"Montserrat";
+}
+/***************************************page bonus******************************************/
+#bonus{
+    background-image: url(illustration/img35.PNG);
+    background-size: cover;
+    background-position: center;
+    padding-bottom:2%;
+    padding-left:5%;
+}
+#bonus h1{
+    font-size:90px;
+    padding-top:50%;
+}
+#bonus h4{
+    font-size:30px;
+    font-family:"Montserrat";
+    padding-top:10%;
+    padding-bottom:10%;
+}
+#bonus h3{
+    color:white;
+    font-family:"Montserrat";
+}
+/***************************************pagehome******************************************/
+#home{
+    background-image: url(illustration/img1.PNG);
+    background-size:cover;
+    background-position:center;
+}
+#home2{
+    padding-top:20%;
+}
+#home2 h1{
+    font-size:70px;
+}
+#home2 p{
+    font-size:20px;
+    padding-top:5%;
+}
+#home3{
+    padding-top:15%;
+    padding-left:10%;
+    padding-bottom:5%;
+}
+#home3 h1{
+    font-size:30px;
+}
+#histoire{
+    padding-left:10%;
+    background-color:rgb(176 19 19);
+    padding-bottom:10%;
+}
+#histoire p{
+    margin-top:10%;
+    text-align:justify;
+    width:100%;
+    font-family:"Montserrat";
+}
+#histoire input{
+    width:60%;
+    padding:4%;
+    border-radius:15px;
+    border:none;
+    margin-left:20%;
+    margin-top:10%;
+}
+#histoire input:hover{
+    background-color:rgba(151,165,165,0.4)
+}
+#costume{
+    background-color:#114C92;
+}
+#costume2  input:hover{
+    background-color:skyblue;
+}
+#costume2{
+    padding-top:5%;
+    text-align:center;
+}
+#costume2 h1{
+    font-size:30px
+}
+#costume2 p{
+    font-size:15px
+}
+#costume2 input{
+    padding:2px;
+    border-radius:30px ;
+    width:60%;
+    margin-left:20%;
+}
+#costume2 button{
+    width:30%;
+    padding:3%;
+    border-radius:15px;
+    border:1px solid white;
+    background-color:#114C92;
+}
+#newsletter{
+    background-color:#b11313;
+}
+#newsletter h1{
+    font-size:25px;
+    padding-top:10%;
+}
+#newsletter p{
+    padding-left:10%;
+    text-align:justify;
+}
+/***************************************pagehéro******************************************/
+#valeur{
+    background-color:#114C92;
+    padding-top:10%;
+    padding-left:5%;
+    padding-bottom:7%;
+}
+#fondation{
+    background-image: url(illustration/img20.png);
+    background-size: cover;
+    background-position: center;
+    padding-top:10%;
+    padding-left:10%;
+    padding-bottom:20%;
+}
+#HEROS{
+    background-image: url(illustration/img19.png);
+    background-size: cover;
+    background-position: center;
+    padding-left:5%;
+    padding-bottom:25%;
+}
+#HEROS h1{
+    font-size:80px;
+    padding-top:15%;
+}
+#texte{
+    background-color:#114C92;
+    padding:5% 8%;
+}
+#ami{
+    background-color:#114C92;
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom:4%;
+}
+#img22{
+    margin-left:35%;
+    margin-top:-15%;
+}
+#image31{
+    margin-top:10%;
+    margin-bottom:30%;
+}
+#lesfilles{
+    background-color:#114C92;
+    padding-left:8%;
+    padding-right:8%;
+    padding-bottom:10%;
+}
+#mg img{
+    margin-left:50%;
+    margin-right:5%;
+    width:100%;
+}
+#avengers{
+    background-color:#b11313;
+    padding-left:8%;
+}
+#univers{
+    background-image:url(illustration/img33.png);
+    background-size: cover;
+    background-position: center;
+}
+/*******************************page adversaires*****************/
+#vilains{
+    background-image:url(illustration/img7.png);
+    background-size: cover;
+    background-position: center;
+    padding-left:8%;
+    padding-bottom:19%;
+}
+#vilains h1{
+    padding-top:20%;
+    font-size:100px;
+}
+#vilains h4{
+    font-size:30px;
+}
+#identité{
+    background-color:#f1c530;
+    padding:5% 10%;
+}
+#identité figcaption{
+    border:7px solid black;
+    border-top:none;
+    border-radius: 0px 0px 15px 15px;
+    height:120%;
+    padding: 0px 5%;
+    box-shadow: -1px 4px 5px -1px black;
+}
+#identité figcaption h5{
+    text-align:center;
+    font-family:"Montserrat";
+}
+#identité figcaption p{
+    color:black;
+    
+    font-family:"Montserrat";
+}
+#identité img{
+    width:100%;
+}
+/********************************footer****************************/
+footer{
+    background-color:#000000;
+    padding-bottom:2%;
+    padding-top:5%;
+}
+#foot {
+    padding-top:5%;
+    width:95%;
+}
+#foot1 li select{
+    padding-top:5%;
+    width:150%;
+    height:30px;
+    padding:2px;
+    border-radius:30px;
+    border:none;
+}
+#foot li input{
+   border:none;
+   padding:2%;
+   border-radius:15%;
+}
+footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+footer li{
+    padding-left: 1%;
+    padding-right:1%;
+}
+.icone{
+    margin-top:7%;
+}
+.icone ul li button{
+    border:none;
+    height:3%;
+    border-radius:50%;
+    background-color:#b11313;
+}
+#iconeh ul li button{
+    background-color:#114C92;
+}
+#iconeA ul li button{
+    background-color:#f1c530;
+
+}
+footer p{
+    color:white;
+    text-align:center;
+    margin-top:3%;
+}
+/**********************************************responsive********************************************/
+@media only screen and (max-width: 766px){
+    #header1{
+        background:transparent;
+        position: absolute;
+    }
+    #header3{
+        background:transparent;
+        position: absolute;
+    }
+    #header2{
+        background:transparent;
+        position: absolute;
+    }
+    #formulaire input{
+        width: 80%;
+    }
+    #formulaire textarea{
+        width: 80%;
+    }
+    #formulaire h1,p{
+        text-align:center;
+    }
+    #histoire p{
+        text-align:center;
+    }
+    #histoire img{
+        margin-left:10%;
+        margin-top:10%;
+        justify-content:center;
+        text-align:center;
+    }
+    #row4{
+        display:none;
+    }
+    #sary{
+        margin-left:5%;
+    }
+    #sary p{
+        margin-left:0%;
+    }
+    #costume2{
+        margin-top:-70%;
+    }
+    #costume2 input{
+        width:80%;
+        margin-left:10%;
+    }
+    #angatra{
+        height:90%;
+        width:50%;
+        margin-left:60%;
+        margin-top:-30%;
+        margin-bottom:0%;
+    }
+    #newsletter span{
+        font-size:80%;
+    }
+    #newsletter #button{
+        width:90%;
+    }
+    #vilains h1{
+        font-size:40px;
+        padding-top:50%;
+        margin-left:15%;
+    }
+    #vilains h4{
+        font-size:20px;
+
+    }
+    section img{
+        margin-top:10%;
+    }
+    #valeur1 h1{
+        text-align:center;
+    }
+    #valeur iframe{
+        width:100%;
+    }
+    #mg img{
+        width:100%;
+        margin-left:5%;
+    }
+    #bonus h1{
+        font-size:30px;
+        padding-top:70%;
+    }
+    #bonus h4{
+        display:none;
+    }
+    #bonus h3{
+        display:block;
+        font-size:20px;
+    }
+    #home2 h1{
+        font-size:30px;
+        margin-top:20%;
+    }
+    #histoire{
+        padding-left:0%;
+    }
+    #histoire p{
+        text-align:center;
+        width:80%;
+    }
+    #histoire img{
+        margin-left:20%;
+    }
+    #histoire input{
+        width:40%;
+    }
+    #antenne h1{
+        font-size:30px;
+    }
+    #antenne h4{
+        font-size:10px;
+    }
+    #input input{
+       width:100%;
+    }
+    #input textarea{
+        width:100%; 
+    }
+    #input{
+        margin-left:0%;
+    }
+    #HEROS h1{
+        font-size:50px;
+        padding-top:40%;
+    }
+    #fondation h1{
+        font-size:25px;
+        padding-top:20%;
+        text-align: center;
+    }
+    #fondation h4{
+        text-align: center;
+    }
+    #img22{
+        margin-left:0%;
+        margin-top:10%;
+    }
+    #ami4 img{
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+    #ami1 h1,h4{
+        text-align: center;
+    }
+ 
+}
+@media only screen and (max-width: 577px){
+#nav{
+    display:none;
+}
+#antenne h1{
+    font-size:20px;
+}
+#foot1 {
+    display:none;
+}
+#foot select{
+    width:50%;
+}
+#pnone{
+    display:none;
+}
+#histoire img{
+    margin-left:5%;
+}
+#costume2{
+    margin-top:0%;
+    margin-left:-35%;
+}
+#costume2 input{
+    padding:2px;
+    border-radius:30px ;
+    width:130%;
+    margin-left:5%;
+}
+#costume2 button{
+    width:50%;
+    margin-left:30%;
+}
+#newsletter1{
+    width:100%;
+}
+#saynamarvel h1{
+    text-align: center;
+    width:120%;
+}
+#row1{
+    display:block;
+}
+#row2{
+    width:120%;
+}
+#h1SM{
+    text-align:center;
+    width:65%;
+}
+#HEROS h1{
+    font-size:50px;
+    padding-top:40%;
+}
+#valeur{
+    display:block;
+}
+#valeur1{
+    width:100%;
+}
+#texte{
+    display:block;
+}
+#texte1{
+    width:100%;
+}
+#ami1 h1,h4{
+    text-align: center;
+}
+#ami{
+    display:block;
+}
+#ami2{
+    width:100%;
+}
+#ami3{
+    display:none;
+}
+#fille{
+    display:none;
+}
+#maningana{
+    display:none;
+}
+#fille2{
+    width:100%;
+}
+#mg img{
+    width: 100%;
+}
+#avengers{
+    display:none;
+}
+#univers{
+    display:none;
+}
+#ami4 img{
+    width:100%;
+    margin-left:20%;
+    margin-right:20%;
+}
+#mg{
+    margin-left:20%;
+}
+#mg img{
+    width:120%;
+}
+#bonus h3{
+    font-size:13px;
+}
+
+
+
+}
